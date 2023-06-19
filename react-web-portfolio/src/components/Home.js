@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Type from "./Type";
 import Typewriter from "typewriter-effect";
 
 export default function Home() {
@@ -33,7 +32,7 @@ export default function Home() {
                     ],
                     autoStart: true,
                     loop: true,
-                    deleteSpeed: 50,
+                    deleteSpeed: 70,
                   }}
                 />
               </div>

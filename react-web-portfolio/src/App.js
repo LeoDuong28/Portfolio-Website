@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "./components/PreLoader";
 import NavigationBar from "./components/NavigationBar";
-import Home from "./components/Home_components/Home";
+import Home from "./components/Home";
 import {
   BrowserRouter as Router,
   Route,
