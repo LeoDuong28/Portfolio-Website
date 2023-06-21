@@ -78,7 +78,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: #2d2d30 !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -146,7 +146,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    background-color: #1f1f1f !important;
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -196,7 +196,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #c95bf5;
+  background:#6A9955;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -224,7 +224,7 @@ button:focus {
   }
   10% {
     transform: rotate(14deg);
-  } /* The following five values can be played with to make the waving more or less extreme */
+  }
   20% {
     transform: rotate(-8deg);
   }
@@ -239,7 +239,7 @@ button:focus {
   }
   60% {
     transform: rotate(0deg);
-  } /* Reset for the last half to pause */
+  }
   100% {
     transform: rotate(0deg);
   }
@@ -262,6 +262,7 @@ button:focus {
   /*
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   */
+  background-color: #202124;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
