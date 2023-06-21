@@ -33,9 +33,7 @@ button:focus {
   height: 100%;
   z-index: 999999;
   background-color: #0c0513;
-  /*
-  background-image: url(./Assets/pre.svg);
-  */
+  background-image: url(./Assets/giphy.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -262,7 +260,7 @@ button:focus {
   /*
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   */
-  background-color: #202124;
+  background-color: #181818;
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
