@@ -22,9 +22,9 @@ button:focus {
   box-shadow: none !important;
 }
 
-/* --------- */
-/*  Preloader */
-/* --------- */
+/*/////////////*/
+/*  Preloader  */
+/*/////////////*/
 #preloader {
   position: fixed;
   top: 0;
@@ -47,9 +47,9 @@ button:focus {
   height: 100vh;
 }
 
-/* --------- */
-/*Scrollbar   */
-/* --------- */
+/*//////////////*/
+/*  Scrollbar   */
+/*//////////////*/
 
 ::-webkit-scrollbar {
   width: 7px;
@@ -72,9 +72,9 @@ button:focus {
   border-radius: 12px;
 }
 
-/* --------- */
-/* Navbar Section  */
-/* --------- */
+/*//////////////////*/
+/*  Navbar Section  */
+/*//////////////////*/
 .sticky {
   background-color: #2d2d30 !important;
   transition: all 0.3s ease-out 0s !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background:#6A9955;
+  background: #6a9955;
   bottom: 1px;
   left: 0;
   z-index: -1;
