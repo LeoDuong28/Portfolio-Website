@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Preloader from "./components/PreLoader";
 import NavigationBar from "./components/NavigationBar";
 import Home from "./components/Home";
-import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import {
@@ -31,11 +30,8 @@ export default function App() {
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <NavigationBar />
-
         <Home />
-        <About />
         <Skills />
-        <Projects />
       </div>
     </Router>
   );

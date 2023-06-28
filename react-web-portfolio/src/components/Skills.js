@@ -1,34 +1,71 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../data";
+import { Container, Row, Col } from "react-bootstrap";
+import { CgCPlusPlus } from "react-icons/cg";
+import {
+  DiJavascript1,
+  DiReact,
+  DiNodejs,
+  DiMongodb,
+  DiPython,
+  DiGit,
+  DiJava,
+} from "react-icons/di";
+import {
+  SiRedis,
+  SiFirebase,
+  SiNextdotjs,
+  SiSolidity,
+  SiPostgresql,
+} from "react-icons/si";
+import { TbBrandGolang } from "react-icons/tb";
 
 export default function Skills() {
   return (
-    <section id="skills">
-      <div className="conatiner px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <ChipIcon className="w-10 incline-block mb-4" />
-          <h1 className="sm:text-4x1 text-3x1 font-medium title-font text-white mb-4">
-            Skills &amp; Technologies
-          </h1>
-          <p className="text-base leading-relaxed x1:w-2/4 lg:w-3/4 mx-auto">
-            I could code in many different language. I used each language based
-            on its strength.
-          </p>
-        </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
+    <Container fluid className="about-section">
+      <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+          <CgCPlusPlus />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJavascript1 />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <TbBrandGolang />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiNodejs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiReact />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiSolidity />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiMongodb />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiNextdotjs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiGit />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiFirebase />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiRedis />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <SiPostgresql />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiPython />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <DiJava />
+        </Col>
+      </Row>
+    </Container>
   );
 }
