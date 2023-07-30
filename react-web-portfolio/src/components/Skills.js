@@ -21,7 +21,7 @@ import { TbBrandGolang } from "react-icons/tb";
 
 export default function Skills() {
   return (
-    <Container fluid className="about-section">
+    <Container fluid className="about-section" id="about">
       <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
         <Col xs={4} md={2} className="tech-icons">
           <CgCPlusPlus />
