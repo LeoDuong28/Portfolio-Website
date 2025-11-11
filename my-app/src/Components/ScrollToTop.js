@@ -12,10 +12,10 @@ const ScrolllToTop = () => {
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > SCROLL_THRESHOLD) {
-                setBtnCls(DEFAULT_BTN_CLS.replace("hidden", ""));
+                setBtnCls(DEFAULT_BTN_CLS.replace(" hidden", ""));
             }
             else {
-                setBtnCls(DEFAULT_BTN_CLS + "hidden");
+                setBtnCls(DEFAULT_BTN_CLS + " hidden");
             }
         };
         window.addEventListener("scroll", handleScroll, { passive: true });
